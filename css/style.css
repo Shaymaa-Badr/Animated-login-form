@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ddd;
+}
+.box {
+  width: 300px;
+  height: 10px;
+  background-color: #222;
+  position: relative;
+  padding: 30px 30px;
+  color: #c2c1c1;
+  margin: 10px auto 20px;
+  box-shadow: 5px 5px 2px rgba(82, 78, 78, 0.9);
+  top: -300px;
+}
+
+.avatar {
+  width: 170px;
+  height: 170px;
+  border-radius: 90%;
+  position: absolute;
+  top: -90px;
+  left: 30%;
+  display: none;
+}
+
+h1 {
+  margin: 20px;
+  padding: 60px 0 20px 0;
+  font-size: 22px;
+  text-align: center;
+  display: none;
+}
+.box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: none;
+}
+.box input {
+  width: 100%;
+  margin-bottom: 20px;
+  display: none;
+}
+.box .form-text,
+.form-pass {
+  border: none;
+  border-bottom: 1px solid #c2c1c1;
+  background: transparent;
+  outline: none;
+  color: #c2c1c1;
+  font-size: 16px;
+  height: 40px;
+}
+.box .log {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  margin: 15px auto;
+  border-radius: 20px;
+  background-color: #c84344;
+}
+.box .log:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #ffc107;
+}
+
+.box a {
+  line-height: 20px;
+  font-size: 12px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  display: none;
+}
+.box a:hover {
+  text-decoration: underline;
+  color: #ffc107;
+}
